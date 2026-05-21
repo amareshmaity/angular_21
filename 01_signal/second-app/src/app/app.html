@@ -1,0 +1,12 @@
+<div>
+  Updated count {{count()}}
+</div>
+
+@if (isEven()) {
+  even
+} @else {
+  odd
+}
+
+<button (click)="increment()">+</button>
+<button (click)="decrement()">-</button>
